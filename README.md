@@ -20,5 +20,25 @@ http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt
 
 [DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList)
 
+## SPT_verify_proof
 
+用于欺骗AKI启动器认为设备中已安装EFT
 
+使用方法：
+
+1.将install_EFT解压至C盘根目录下
+
+解压后文件结构应如下文所示
+
+```
+C:/
+└─ Install_EFT
+   ├─ ConsistencyInfo
+   ├─ Uninstall.exe
+   ├─ UnityCrashHandler64.exe
+   ├─ WinPixEventRuntime.dll
+   └─ BattlEye
+      └─ BEClient_x64.dll
+```
+
+2:导入eft.reg
